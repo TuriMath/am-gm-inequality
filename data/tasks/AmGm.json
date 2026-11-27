@@ -1,0 +1,14 @@
+{
+  "slug": "AmGm",
+  "issue": "TuriMath/am-gm-inequality#1",
+  "tier": 1,
+  "source": "Hardy, Littlewood & Pólya, Inequalities, Thm 9",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Real.add_one_le_exp", "Real.log_le_sub_one_of_pos", "Real.log_lt_sub_one_of_pos", "Real.exp_sum", "Real.exp_log", "Real.exp_lt_exp", "Finset.prod_le_prod₀", "Finset.sum_lt_sum", "Real.rpow_le_rpow", "Real.rpow_natCast", "Real.rpow_mul", "Finset.sum_eq_zero_iff_of_nonneg"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proved without Mathlib's AM-GM (no geom_mean_le_arith_mean_weighted). With a = AM > 0: prod(x_i/a) <= exp(sum(x_i/a - 1)) = 1 gives prod <= a^n; strictness via log t < t - 1 for t != 1 (after splitting off a zero entry). Case a = 0 handled separately. Fixed API drift: prod_lt_prod is now the ordered-group version, so strictness is done through sums of logs."
+}
