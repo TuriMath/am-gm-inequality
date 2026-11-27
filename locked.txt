@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+1ddbb95d68971b86e9a50dc11874b4ff6dd5984e7e811867510d21e6327bf55b  Theorems/AmGm/A.lean
+12a4ec47d5693fce93fa48446e1fd0edc65d4b6147998edb09a177a6e5b03fc5  Theorems/AmGm/B.lean
+1308a5020347440d4d23fbe599c2342b5dfa7816f5a48c56598ed83ad15865ae  Theorems/AmGm/Equiv.lean
