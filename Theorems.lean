@@ -2,3 +2,4 @@
 import Theorems.AmGm.A
 import Theorems.AmGm.B
 import Theorems.AmGm.Equiv
+import Theorems.AmGm.Proof
